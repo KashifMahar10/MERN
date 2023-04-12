@@ -9,7 +9,7 @@
 
 
             router.get('/',(req,res)=>{
-                console.log(":HELLO FROM ROUTER")
+                console.log("HELLO FROM ROUTER")
             });
 
             router.post('/register', async (req,res)=>{
